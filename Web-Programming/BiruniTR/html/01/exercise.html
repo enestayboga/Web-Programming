@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+</head>
+<body>
+    <script>
+        var x = 0;
+        var y = 1;
+        for(var i = 0; i <= 101; i++){
+            if (x > 0  || x <= 100){
+                var x = i;
+                var y = Math.sqrt(parseFloat(x));
+
+                if (Number.isInteger(parseFloat(y))){
+                     document.write(y + "<br/>");
+                }    
+            } 
+            else
+            {
+                alert("The square of the numbers from 1 to 100 has been found");
+            }
+    
+        }
+    </script>
+</body>
+</html>
